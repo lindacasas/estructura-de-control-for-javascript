@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de control for</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">ESTRUCTURA DE CONTROL: FOR</h1>
+    <section class="general-container">
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Números impares</h3>
+            <p class="container-data">
+                Ingresa un número: 
+                <input type="number" id="ex1-input" placeholder="Ingrese un número" value="50">
+            </p>
+            <button class="btn btn-primary" type="button" onclick="exercise1()">Mostrar impares</button>
+            <p class="result" id="result-ex1"></p>
+        </article>
+
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Pokémons</h3>
+            <p class="container-data">
+                <label for="ex2-input">Ingresa un número entre el 5-100:</label>
+                <input type="number" id="ex2-input" placeholder="Ingrese un número">
+            </p>
+            <button class="btn btn-primary" type="button" onclick="exercise2()">Mostrar nombres</button>
+            <p class="result" id="result-ex2"></p>
+        </article>
+
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Arreglo de números</h3>
+            <p class="container-data">
+                <label for="ex3-input">Ingresa datos separados por comas:</label>
+                <input type="text" id="ex3-input" oninput="validateInput(this)" placeholder="1, uno, hola, 55" value="4, dos, 8, tres, 5, 9, 1, cero">
+            </p>
+            <button class="btn btn-primary" type="button" onclick="exercise3()">Mostrar números</button>
+            <p class="result" id="result-ex3"></p>
+        </article>
+    </section>
+    
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
