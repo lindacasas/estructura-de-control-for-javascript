@@ -38,4 +38,4 @@ Linda Melissa Casas Huanca
 ## URL
 
 - GitHub: https://github.com/lindacasas/estructura-de-control-for-javascript
-- GitHub Pages:
+- GitHub Pages: https://lindacasas.github.io/estructura-de-control-for-javascript/
